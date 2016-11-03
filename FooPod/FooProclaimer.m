@@ -7,7 +7,7 @@
 //
 
 #import "FooProclaimer.h"
-#import "BarProclaimer.h"
+// #import "BarProclaimer.h"
 
 @implementation FooProclaimer
 
@@ -16,7 +16,7 @@
 }
 
 + (void)proclaimInAlienTongue {
-	[BarProclaimer proclaim];
+//	[BarProclaimer proclaim];
 }
 
 @end
