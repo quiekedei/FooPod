@@ -24,5 +24,7 @@ Pod::Spec.new do |s|
   s.platform        = :ios, '9.3'
   s.requires_arc    = true
 
+  s.dependency 'BarPod'
+
   s.source_files = 'FooPod/**/*.{h,m}'
 end
