@@ -7,11 +7,16 @@
 //
 
 #import "FooProclaimer.h"
+#import "BarProclaimer.h"
 
 @implementation FooProclaimer
 
 + (void)proclaim {
 	NSLog(@"Everybody say \"FOOHOOOO\"");
+}
+
++ (void)proclaimInAlienTongue {
+	[BarProclaimer proclaim];
 }
 
 @end

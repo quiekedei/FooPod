@@ -11,5 +11,6 @@
 @interface FooProclaimer : NSObject
 
 + (void)proclaim;
++ (void)proclaimInAlienTongue;
 
 @end
