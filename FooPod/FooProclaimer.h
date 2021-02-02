@@ -13,4 +13,6 @@
 + (void)proclaim;
 + (void)proclaimInAlienTongue;
 
+-(void)make;
+
 @end
