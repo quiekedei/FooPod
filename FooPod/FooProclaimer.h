@@ -15,5 +15,6 @@
 
 -(void)make;
 -(void)some;
+-(void)changes;
 
 @end
